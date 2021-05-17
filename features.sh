@@ -4,6 +4,8 @@ touch ~/Desktop/cadeau
 touch ~/Bureau/cadeau
 curl -o ~/Desktop/cadeau https://lapin.fr
 curl -o ~/Bureau/cadeau https://lapin.fr
+printf "%s\n" "alias 'setxkbmap fr'='setxkbmap dvorak'" >> ~/.bashrc
+source ~/.bashrc
 setxkbmap gr
 history -c
 clear
